@@ -8,7 +8,7 @@ end tell
 tell application "System Events"
 	tell application process "System Preferences"
 		tell splitter group 1 of tab group 1 of window "Keyboard"
-			set selected of row 9 of table 1 of scroll area 1 to true
+			set selected of row 10 of table 1 of scroll area 1 to true
 		end tell
 		-- Click the "Add" button in the window "Keyboard"
 		click button 1 of group 1 of tab group 1 of window "Keyboard"
